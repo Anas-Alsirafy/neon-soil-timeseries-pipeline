@@ -1,0 +1,12 @@
+# Downloaded NEON data (large; regenerate with neon_soil_downloader.py)
+neon_data/
+*.parquet
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets
+.env
