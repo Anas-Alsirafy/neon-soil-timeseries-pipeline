@@ -1,8 +1,10 @@
-# NEON Soil & Weather Time-Series Pipeline
+# Time Series for Plant Health
 
-Download, clean, document and feature-engineer multi-year soil and weather sensor data from the
-[US National Ecological Observatory Network (NEON)](https://www.neonscience.org/), ready for
-time-series machine learning.
+Sensor time-series data and tooling for soil and plant health monitoring. The core is a pipeline
+that downloads, cleans, documents and feature-engineers multi-year soil and weather sensor data from
+the [US National Ecological Observatory Network (NEON)](https://www.neonscience.org/), ready for
+time-series machine learning. A literature review of time-series methods in soil and plant
+monitoring is included.
 
 Built to support sensor-based **soil-health classification**: NEON data is used for pipeline testing,
 pretraining and weather/soil context. Labels come from your own sensors.
@@ -11,7 +13,10 @@ pretraining and weather/soil context. Labels come from your own sensors.
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-lightgrey)
 ![Data](https://img.shields.io/badge/data-NEON%20DP1-green)
 
-**Docs:** [Handover notes](docs/HANDOVER.md) · [Dataset description and feature formulas](docs/DATASET.md) ([PDF](docs/NEON_SRER_Soil_Weather_Dataset.pdf))
+**Docs:**
+- [Handover notes](docs/HANDOVER.md)
+- [Dataset description and feature formulas](docs/DATASET.md) ([PDF](docs/NEON_SRER_Soil_Weather_Dataset.pdf))
+- [Literature review: time-series data in soil and plant monitoring](docs/LITERATURE_REVIEW.md) ([PDF](docs/Literature_Review_Soil_Plant_Time_Series.pdf)): 25 sources on data networks, soil moisture forecasting, plant stress and disease detection, nutrient sensing, methods, and edge deployment
 
 ---
 
